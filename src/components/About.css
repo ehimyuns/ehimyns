@@ -24,10 +24,6 @@
     padding: 40px;
 }
 
-text {
-    align-items: left;
-}
-
 .text p {
     box-sizing: border-box;
     font-style: normal;
@@ -37,12 +33,132 @@ text {
     margin: 50px 150px 50px 500px;
 }
 
-#text-bold { 
+#text-bold {
     font-style: normal;
     display: block;
     font-weight: bold;
     font-size: 48px;
     letter-spacing: -0.96px;
-    /* line-height: 60x; */
-    margin: 50px 300px 90px 500px;
+    margin: 50px 300px 50px 500px;
+}
+
+#text-new {
+    font-style: normal;
+    font-size: 114px;
+    font-weight: 700;
+    letter-spacing: -2.28px;
+    line-height: 126px;
+    margin: 150px 112.338px 150px 112.338px;
+}
+
+.Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Adds space between the boxes */
+    padding: 20px;
+}
+
+.Boxes h2 {
+    /* padding: 50px; */
+    width: 300px;
+    /* Fixed width for uniformity */
+    height: 200px;
+    /* Fixed height for uniformity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    border-radius: 50px;
+    /* Rounded corners for each box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a shadow for depth */
+    margin: 10px;
+    tab-size: 4;
+    opacity: 1;
+    text-size-adjust: 100%;
+    text-align: left;
+    /* transform: matrix(0.891789, 0, 0, 0.891789, 0, 0); */
+    /* Adds margin around each box */
+}
+
+#one {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(138, 216, 192);
+    width: 439.288px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    min-height: 500px;
+    margin: 0px;
+    padding: 50px;
+
+}
+
+#two {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(198, 244, 89);
+    width: 888.575px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    min-height: 500px;
+    margin: 0px;
+    padding: 50px;
+}
+
+#three {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(243, 154, 142);
+    width: 664px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    min-height: 500px;
+    margin: 0px;
+    padding: 50px;
+}
+
+#four {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(133, 203, 218);
+    width: 664px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    min-height: 500px;
+    margin: 0px;
+    padding: 50px;
+}
+
+#five {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(156, 183, 235);
+    width: 776.325px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    min-height: 500px;
+    margin: 0px;
+    padding: 50px;
+}
+
+#six {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(178, 149, 206);
+    width: 551.662px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    min-height: 500px;
+    margin: 0px;
+    padding: 50px;
 }

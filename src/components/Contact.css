@@ -2,40 +2,24 @@
     padding: 50px 20px;
     background-color: #fff;
 }
-  
-.contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+
+.contact h3 {
+    font-size: 32px;
+    letter-spacing: -0.6px;
+    line-height: 44px;
+    font-weight: 400;
+    margin: 50px 200px 30px 520px;
 }
-  
-.contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.contact p {
+    font-size: 32px;
+    letter-spacing: -0.6px;
+    line-height: 44px;
+    font-weight: 400;
+    margin: 0px 200px 40px 520px;
 }
-  
-.contact input,
-.contact textarea {
-    width: 80%;
-    max-width: 500px;
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+
+.contact img {
+    max-width: 320px;
+    margin: 0px 200px 80px 520px;
 }
-  
-.contact button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    background-color: #333;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-}
-  
-.contact button:hover {
-    background-color: #555;
-}
-  

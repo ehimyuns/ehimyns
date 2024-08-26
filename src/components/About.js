@@ -31,6 +31,15 @@ function About() {
         <p>My work helps companies make strategic decisions in their foundational stages and leverage their position in the market.
           Over the past two years, I've helped build four startups leading to over $55M in investment.</p>
       </div>
+      <div class="Boxes">
+        <h1 id="text-new">Here’s what you can expect from me...</h1>
+        <h2 id="one">I’ll bring years of experience, big energy and fresh thinking.</h2>
+        <h2 id="two">Listen, challenge and reconnect the dots — joining your team with conviction and openness.</h2>
+        <h2 id="three">Bridge the gap between creative and commercial objectives — speaking both languages.</h2>
+        <h2 id="four">Recognise potential — pushing brands to become better than you ever thought possible.</h2>
+        <h2 id="five">Giving you the foundations to scale — from world-class design and advisory to building your future team.</h2>
+        <h2 id="six">Teach teams to move at velocity and have a hell of a lot of fun doing it.</h2>
+      </div>
     </section>
   );
 }

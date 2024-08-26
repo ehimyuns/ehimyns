@@ -1,11 +1,35 @@
 .footer {
-    padding: 20px;
-    background-color: #333;
-    color: white;
+    display: flex;
+    box-sizing: border-box;
+    /* font-size: 30px; */
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    /* width: 1348px; */
+    /* justify-content: space-between; */
+    letter-spacing: -0.6px;
     text-align: center;
+    /* line-height: 44px; */
+    padding: 40px 0px 40px 60px;
+    /* background-color: #333;
+    color: white; */
+
 }
-  
+
 .footer p {
-    margin: 0;
-    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.footer img {
+    height: 18px;
+    margin: 5px 680px 0px 0px;
+    
+    /* margin-right: 600px; */
+}
+
+.footer a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    font-style: normal;
 }
